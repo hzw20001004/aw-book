@@ -82,8 +82,9 @@
                 <version>1.2.0</version>
                 <configuration>
                     <!-- 注意imageName一定要是符合正则[a-z0-9-_.]的，否则构建不会成功 -->
-                    <imageName>registry.cn-shenzhen.aliyuncs.com/mogublog/${project.artifactId}</imageName>
+                    <imageName>aw/${project.artifactId}</imageName>
                     <dockerDirectory>${project.basedir}/src/main/resources</dockerDirectory>
+                    <dockerHost>http://101.34.67.170:2345</dockerHost>
                     <rm>true</rm>
                     <resources>
                         <resource>
