@@ -7,8 +7,7 @@
 ``` bash
 # install dependencies
 npm install
-npm i --legacy-peer-deps
-npm i node-sass --sass_binary_site=https://npm.taobao.org/mirrors/node-sass
+
 # serve with hot reload at localhost:8080
 npm run dev
 
